@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffcd9e;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: 592px;
+}
+
+.left-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 575px;
+    height: 575px;
+}
+
+.heading {
+    color: #282828;
+    width: 562px;
+    font-size: 36px;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.subheading {
+    font-weight: 500;
+    font-size: 20px;
+    color: #484848;
+    width: 495px;
+}
+
+.cta-text {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.email-input {
+    width: 344px;
+    color: #888888;
+    font-size: 20px;
+    font-weight: 600;
+    border: 4px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 54px;
+}
+
+.register-button {
+    width: 216px;
+    background-color: #282828;
+    height: 54px;
+    padding: 0.5rem;
+    font-size: 17px;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.disclaimer {
+    font-weight: 500;
+    width: 344px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 575px;
+    height: 575px;
+}
+
+.image {
+    width: 393px;
+    height: 442px;
+}
+
+footer {
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    background-color: #282828;
+}
+
+.footer-left {
+    display: flex;
+    width: 575px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-right {
+    display: flex;
+    width: 575px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.linkedin-logo {
+    width: 29.41px;
+    height: 27.42px;
+    cursor: pointer;
+}
+
+.instagram-logo {
+    width: 29.41px;
+    height: 27.42px;
+    cursor: pointer;
+}
+
+.email-link {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
