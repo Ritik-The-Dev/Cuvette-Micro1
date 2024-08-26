@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html body {
+      height: 100%;
+      width: 100%;
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+  <body>
+    <main
+      class="flex items-center justify-center w-full bg-[#FFCD9E] px-10 h-[592px]"
+    >
+      <div
+        class="flex items-start flex-col justify-center gap-6 w-[575px] h-[575px]"
+      >
+        <span
+          class="text-[#282828] w-[562px] text-[36px] leading-[3rem] font-bold"
+        >
+          An inspiring design delivered to you inbox every morning
+        </span>
+        <span class="font-medium text-[20px] text-[#484848] w-[495px]">
+          Our team scouts the internet for the best designs, illustrations and
+          art and delivers a truly inspiring one every day to your inbox
+        </span>
+        <span class="font-extrabold text-[20px]"> Show me how it looks </span>
+        <div class="flex items-center justify-center gap-5">
+          <input
+            type="text"
+            placeholder="Your e-mail address"
+            class="w-[344px] text-[#888888] text-[20px] font-semibold border-[4px] rounded-lg p-2 px-4 border-black outline-none h-[54px]"
+          />
+          <button
+            class="w-[216px] bg-[#282828] h-[54px] p-2 text-white rounded-lg"
+          >
+            Register Now
+          </button>
+        </div>
+        <span
+          class="font-medium w-[344px] text-[16px] text-center text-[#FFFFFF]"
+          >Free - No Spam - No Data Sharing</span
+        >
+      </div>
+      <div class="flex items-center justify-end w-[575px] h-[575px]">
+        <img src="/Images/image.png" class="w-[393px] h-[442px]" alt="Image" />
+      </div>
+    </main>
+    <footer
+      class="h-[298px] flex items-center justify-center px-20 py-5 bg-[#282828]"
+    >
+      <div
+        class="flex w-[575px] items-start justify-start flex-col gap-2 text-normal text-20px text-[#FFFFFF]"
+      >
+        <span>Prompt Generator</span>
+        <span>Dweep Daily</span>
+        <span>All Contributors</span>
+        <span>Your data on Dweep.io</span>
+        <span>Contribute to Dweep</span>
+      </div>
+      <div
+        class="flex w-[575px] items-end justify-end flex-col gap-2 text-normal text-20px text-[#FFFFFF]"
+      >
+        <span class="cursor-pointer"> Dweep.io</span>
+        <span>Made with love in India</span>
+        <span class="flex items-end justify-end gap-2">
+          <img
+            src="/Images/LinkedinLogo.png"
+            alt="Linkedin"
+            class="w-[29.41px] cursor-pointer h-[27.42px]"
+          />
+          <img
+            src="/Images/InstagramLogo.png"
+            alt="Instagram"
+            class="w-[29.41px] cursor-pointer h-[27.42px]"
+          />
+        </span>
+        <br />
+        <a href="mailto:hello@dweep.io"
+          ><span class="cursor-pointer">hello@dweep.io</span></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
